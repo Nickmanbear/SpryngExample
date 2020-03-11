@@ -9,6 +9,8 @@ class DemoApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("Does this print?");
+
+        assert true;
     }
 
 }
