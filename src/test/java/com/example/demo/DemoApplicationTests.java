@@ -10,7 +10,7 @@ class DemoApplicationTests {
     void contextLoads() {
         System.out.println("Does this print?");
 
-        assert true;
+        Assert.assertTrue(true);
     }
 
 }
