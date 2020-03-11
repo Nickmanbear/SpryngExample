@@ -10,9 +10,9 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        Greeting greeting = new Greeting(1.0, "tester");
+        Greeting greeting = new Greeting(1, "tester");
 
-        assertEquals(1.0, greeting.getId());
+        assertEquals(1, greeting.getId());
         assertEquals("tester", greeting.getContent());
     }
 
